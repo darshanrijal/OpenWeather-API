@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Openweather API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <label id="city">City:</label>
+      <input type="text" placeholder="Your City" id="forminput" />
+
+      <input type="submit" value="Fetch" id="submit" onclick="fetchCity()" />
+      <!-- <button type="button" onclick="showPosition()">Get Local Info</button> -->
+    </div>
+    <div class="center"><div id="api_data"></div></div>
+    <script src="script.js"></script>
+  </body>
+</html>
